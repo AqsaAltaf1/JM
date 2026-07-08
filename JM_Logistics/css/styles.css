@@ -3228,7 +3228,13 @@ ul {
   }
 
   .brand-logo__tagline {
-    display: none;
+    display: block;
+    font-size: 0.4375rem;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
   }
 
   .brand-logo__rule {
@@ -3670,6 +3676,11 @@ ul {
 
   .brand-logo__sub {
     font-size: 0.4375rem;
+  }
+
+  .brand-logo__tagline {
+    font-size: 0.375rem;
+    letter-spacing: 0.02em;
   }
 
   .hero-right {
